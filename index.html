@@ -215,15 +215,18 @@
           <span class="tag">メール通知</span>
           <span class="tag">スマホ対応</span>
         </div>
-        <a href="#contact" class="btn btn-hj">補助金検索サービスを相談する</a>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;">
+          <a href="https://miraishain.github.io/hojokin-search-demo/" target="_blank" rel="noopener" class="btn btn-hj">補助金を検索してみる →</a>
+          <a href="#contact" class="btn btn-ghost">このサービスを相談する</a>
+        </div>
       </div>
       <div class="detail-visual">
-        <div class="mock">
+        <a class="mock" href="https://miraishain.github.io/hojokin-search-demo/" target="_blank" rel="noopener" style="display:block;text-decoration:none;color:inherit;cursor:pointer;" aria-label="補助金検索デモを開く">
           <div class="mock-bar"><span></span><span></span><span></span></div>
           <div class="mock-body">
             <div class="mock-search">
-              <input type="text" placeholder="キーワードで補助金を検索" readonly />
-              <button>検索</button>
+              <input type="text" placeholder="キーワードで補助金を検索" readonly tabindex="-1" />
+              <span style="display:grid;place-items:center;padding:0 18px;border-radius:10px;background:var(--hj);color:#fff;font-weight:700;">検索</span>
             </div>
             <div class="mock-chips">
               <span>全国</span><span>販路開拓</span><span>IT導入</span><span>設備投資</span>
@@ -238,8 +241,9 @@
               <small>上限450万円 ／ 補助率1/2 ・ 募集中</small>
               <span class="mock-cta">この補助金について相談する →</span>
             </div>
+            <p style="text-align:center;margin-top:14px;color:var(--hj);font-weight:700;font-size:.85rem;">クリックで実際の検索を試す →</p>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
